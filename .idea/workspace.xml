@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Assets/PythonEX7.py" afterPath="$PROJECT_DIR$/Assets/PythonEX7.py" />
       <change beforePath="$PROJECT_DIR$/Assets/PythonEx7.fsf" afterPath="$PROJECT_DIR$/Assets/PythonEx7.fsf" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/layout.xl.xa" afterPath="$PROJECT_DIR$/ProjectSettings/layout.xl.xa" />
       <change beforePath="$PROJECT_DIR$/Temp/DanuriLogDump.txt" afterPath="$PROJECT_DIR$/Temp/DanuriLogDump.txt" />
       <change beforePath="$PROJECT_DIR$/Temp/~temp.fsf" afterPath="$PROJECT_DIR$/Temp/~temp.fsf" />
     </list>
@@ -21,8 +20,8 @@
       <file leaf-file-name="PythonEX7.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/PythonEX7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1002">
-              <caret line="128" column="24" lean-forward="true" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
+            <state relative-caret-position="2122">
+              <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -265,8 +264,8 @@
     <entry file="file://$PROJECT_DIR$/Assets/testpython.py" />
     <entry file="file://$PROJECT_DIR$/Assets/PythonEX7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1002">
-          <caret line="128" column="24" lean-forward="true" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
+        <state relative-caret-position="2122">
+          <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

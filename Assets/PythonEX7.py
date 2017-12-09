@@ -90,15 +90,6 @@ class PythonEX7(Actor.Actor):
 
         return 0
 
-    def OnDestroy(self):
-        return 0
-
-    def OnEnable(self):
-        return 0
-
-    def OnDisable(self):
-        return 0
-
     def Update(self):
         global interval, space, ball, grounds, chara
         if interval == 0:
@@ -109,21 +100,13 @@ class PythonEX7(Actor.Actor):
                 self.cubeTransformGroup[i].SetPosition(cubePosition)
 
                 cubeRotation = self.cubeTransformGroup[i].GetRotation()
-                cubeRotation.x = 0.0
-                cubeRotation.y = 0.0
-                cubeRotation.z = self.ball[i].body.angle*(180.0/3.141592)
+                cubeRotation.z = float(self.ball[i].body.angle)
                 self.cubeTransformGroup[i].SetRotation(cubeRotation)
-
-                print('ball',i+1,self.ball[i].body.angle)
-                print('ball',i+1,cubeRotation.z)
 
             charaPosition = self.charaTransformGroup.GetPosition()
             charaPosition.x = chara.body.position.x
             charaPosition.y = chara.body.position.y
             self.charaTransformGroup.SetPosition(charaPosition)
-
-            #print ('cubePosition : ', cubePosition[i].x, cubePosition[i].y)
-            #print ('groundPosition : ', groundPosition.x, groundPosition.y)
 
             space.step(1/60.0)
             interval = 1
@@ -148,3 +131,12 @@ class PythonEX7(Actor.Actor):
         chara.body.position.y = charaPosition.y
 
         return
+
+    def OnDestroy(self):
+        return 0
+
+    def OnEnable(self):
+        return 0
+
+    def OnDisable(self):
+        return 0
